@@ -1,0 +1,42 @@
+p {
+
+    color: blueviolet;
+    background-color: antiquewhite;
+    padding-left: 10px;
+    border: 2px solid green;
+    text-shadow: 1.5px 1.5px rgba(0,0,0,0.2);
+
+}
+
+.boton1 {
+
+    color: red;
+    background-color: limegreen;
+    border-radius: 20px;
+    border: 3px solid saddlebrown;
+    transition-duration: 0.4s;
+
+}
+
+.boton1:hover {
+
+    color: wheat;
+    background-color: black;
+    border-color: aqua;
+}
+
+#boton2 {
+
+    color: yellowgreen;
+    background-color: chocolate;
+    border-radius: 3px;
+    border-left: 5px solid brown;
+    border-bottom: 4px solid #821818;
+
+}
+
+#boton2:hover {
+
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}

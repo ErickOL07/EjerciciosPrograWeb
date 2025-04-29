@@ -1,0 +1,18 @@
+  .contenedor {
+    display: flex; /* Activamos Flexbox */
+    justify-content: center; /* Centramos las cajas horizontalmente */
+    align-items: center; /* (opcional) Centramos verticalmente si quieres */
+    height: 200px; /* (opcional) Solo para que el contenedor tenga algo de altura visible */
+    background-color: #f0f0f0;
+  }
+
+  .caja {
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;
+    margin: 10px; /* Espacio externo entre las cajas */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+  }

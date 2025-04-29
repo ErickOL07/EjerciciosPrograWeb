@@ -1,0 +1,18 @@
+.contenedor-space-between {
+    display: flex; /* Flexbox activado */
+    justify-content: space-between; /* Deja espacio máximo entre las cajas */
+    align-items: center;
+    height: 200px; /* (opcional, para que sea más visible) */
+    background-color: #f0f0f0;
+    padding: 0 20px; /* (opcional) Espaciado interno para que no pegue a los bordes */
+}
+
+.caja {
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
