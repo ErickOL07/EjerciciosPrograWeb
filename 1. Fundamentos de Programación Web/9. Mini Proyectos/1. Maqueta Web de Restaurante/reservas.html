@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas - La Buena Mesa</title>
+    <link rel="stylesheet" href="reservas.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1 class="titulo">Reserva tu Mesa</h1>
+
+        <form id="formularioReserva">
+            <input type="text" id="nombre" placeholder="Tu nombre" required><br><br>
+            <input type="email" id="correo" placeholder="Tu correo electrónico" required><br><br>
+            <input type="number" id="personas" placeholder="Número de personas" required><br><br>
+            <input type="date" id="fecha" required><br><br>
+            <button type="submit">Enviar Reserva</button>
+        </form>
+
+        <p id="mensajeConfirmacion"></p>
+
+        <br><a href="index.html">
+            <button class="boton-volver">Volver al Inicio</button>
+        </a>
+    </div>
+
+    <script src="reservas.js"></script>
+</body>
+</html>

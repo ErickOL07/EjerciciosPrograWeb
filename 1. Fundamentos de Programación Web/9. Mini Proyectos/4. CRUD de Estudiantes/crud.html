@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD de Estudiantes</title>
+    <link rel="stylesheet" href="crud.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1 class="titulo">Registro de Estudiantes</h1>
+
+        <form id="formularioEstudiante">
+            <input type="text" id="nombre" placeholder="Nombre del estudiante" required><br><br>
+            <input type="number" id="edad" placeholder="Edad" required><br><br>
+            <select id="curso" required>
+                <option value="">Selecciona un curso</option>
+                <option value="Matemáticas">Matemáticas</option>
+                <option value="Historia">Historia</option>
+                <option value="Biología">Biología</option>
+                <option value="Programación">Programación</option>
+            </select><br><br>
+            <button type="submit">Guardar</button>
+        </form>
+
+        <h2>Lista de Estudiantes</h2>
+        <table id="tablaEstudiantes">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Edad</th>
+                    <th>Curso Favorito</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Estudiantes aparecerán aquí -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="crud.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+body {
+    background-color: #f5f5dc;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    text-align: center;
+}
+
+.titulo {
+    color: #5c4033;
+}
+
+form input {
+    padding: 10px;
+    width: 250px;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #5c4033;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #3e2b20;
+}
+
+#mensajeConfirmacion {
+    margin-top: 20px;
+    color: green;
+    font-weight: bold;
+}
+
+.boton-volver {
+    margin-top: 20px;
+    padding: 8px 16px;
+    background-color: #5c4033;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.boton-volver:hover {
+    background-color: #3e2b20;
+}

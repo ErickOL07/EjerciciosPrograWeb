@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="registro.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1 class="titulo">Registro de Usuario</h1>
+
+        <form id="formularioRegistro">
+            <input type="text" id="nombre" placeholder="Nombre completo" required><br><br>
+
+            <input type="number" id="edad" placeholder="Edad" min="18" max="99" required><br><br>
+
+            <input type="email" id="correo" placeholder="Correo electrónico" required><br><br>
+
+            <p>Género:</p>
+            <label><input type="radio" name="genero" value="Masculino" required> Masculino</label><br>
+            <label><input type="radio" name="genero" value="Femenino" required> Femenino</label><br>
+            <label><input type="radio" name="genero" value="Otro" required> Otro</label><br><br>
+
+            <p>Intereses:</p>
+            <label><input type="checkbox" name="intereses" value="Deportes"> Deportes</label><br>
+            <label><input type="checkbox" name="intereses" value="Música"> Música</label><br>
+            <label><input type="checkbox" name="intereses" value="Tecnología"> Tecnología</label><br>
+            <label><input type="checkbox" name="intereses" value="Viajes"> Viajes</label><br><br>
+
+            <select id="pais" required>
+                <option value="">Selecciona tu país</option>
+                <option value="Perú">Perú</option>
+                <option value="México">México</option>
+                <option value="Argentina">Argentina</option>
+                <option value="España">España</option>
+                <option value="Colombia">Colombia</option>
+            </select><br><br>
+
+            <textarea id="comentarios" placeholder="Comentarios adicionales (opcional)" rows="4" cols="40"></textarea><br><br>
+
+            <button type="submit">Enviar Registro</button>
+        </form>
+
+        <p id="mensajeConfirmacion"></p>
+    </div>
+
+    <script src="registro.js"></script>
+</body>
+</html>

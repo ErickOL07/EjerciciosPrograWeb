@@ -1,0 +1,55 @@
+body {
+    background-color: #f5f5dc;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    text-align: center;
+}
+
+.titulo {
+    color: #5c4033; /* Marrón oscuro */
+}
+
+.imagen-comida {
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    margin: 20px 0;
+}
+
+.menu {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+.menu th, .menu td {
+    border: 1px solid #5c4033;
+    padding: 10px;
+}
+
+.menu th {
+    background-color: #e0d6b4;
+}
+
+.boton-reserva {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #5c4033;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton-reserva:hover {
+    background-color: #3e2b20;
+}
